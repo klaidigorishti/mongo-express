@@ -1,15 +1,3 @@
-0.43.0 - Sat Oct 14, 2017
------
-
-- Added support for Binary Data as _id (#368)
-
-
-0.42.3 - Sat Sep 23, 2017
------
-
-- Fix small typo causing issue with auth databases (#366)
-
-
 0.42.2 - Sat Aug 12, 2017
 ------
 

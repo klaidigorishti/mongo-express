@@ -41,7 +41,7 @@ try {
 }
 
 if (config.options.console) {
-  console.log('Welcome to mongo-express');
+  console.log('Welcome to Baufrtiz Moodboard Admin');
   console.log('------------------------');
   console.log('\n');
 }

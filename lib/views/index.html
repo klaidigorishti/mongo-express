@@ -98,14 +98,44 @@
       Create Database
     </button>
 </form-->
+
 {% endif %}
+<!--
+<script>
+function logout() {
+    //TBD
+    jQuery.ajax({
+            type: "GET",
+            url: "/mongodb://admin:baufritzadmin@localhost:27017/moodboard",
+            async: false,
+            username: "wrongusername",
+            password: "wrongpassword",
+            headers: {"Authorization": "Basic xxx"}
+        })
+        .success(function () {
+            console.log("********** Success ***********");
+        })
+        .fail(function () {
+            console.log("********** Logged Out ***********");
+        });
+    return false;
+}
+</script>
+-->
+
+<input type="hidden" name="_method" value="put">
+<button onclick="logout()" class="backButton btn btn-warning btn-large" style="float: right;  height: 50px; width:16%">
+  Logout
+</button>
 
 {% if info == false %}
 
+<!--
 <h2>Server Status</h2>
 <p>
   Turn on admin in config.js to view server stats!
 </p>
+-->
 
 {% else %}
 <div class="panel panel-default stats">
